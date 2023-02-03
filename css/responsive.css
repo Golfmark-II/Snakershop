@@ -1,0 +1,172 @@
+@media (max-width:1288px){
+    .productimg {
+        padding-top: 6rem;
+    }
+}
+
+@media (max-width:788px){
+    
+    .slidertitle{
+        font-size: 40px;
+    }
+
+    .sliderprice{
+        right: unset;
+        left: 10px;
+        font-size: 50px;
+    }
+
+    .buybutton{
+        bottom: unset;
+        top: 16rem;
+    }
+    .product{
+        height: 70vh;
+
+    }
+    
+
+    .productimg{
+        width: 60%;
+    }
+
+    .gallery {
+        padding: 0 50px 50px 50px;
+        flex-direction: column;
+    }
+
+    .nsImg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (max-width:488px) {
+
+    nav{
+        padding: 20px;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .navbottom{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .menuitem{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .slider{
+        clip-path: none;
+    }
+    .siderimg{
+        width: 100%;
+    }
+    .sliderBg{
+        width: 100%;
+        height: 100%;
+    }
+    .slidertitle{
+        font-size: 25px;
+        margin-right: -30px;
+    }
+
+    .sliderprice{
+      top: unset;
+      bottom: 0;
+      left: 0px;
+      background-color: black;
+      padding: 5px;
+      text-shadow: none;
+    }
+
+    .buybutton{
+        left: unset;
+        right: 5px;
+        bottom: unset;
+        top: 9rem;
+        font-size: 20px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .product{
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .productimg{
+        width: 80%;
+        height: 40%;
+    }
+    .productdetails{
+        width: 100%;
+        top: unset;
+        bottom: 10rem;
+    }
+    .gallery{
+        flex-direction: column;
+    }
+    .newseason{
+        flex-direction: column;
+        
+    }
+    .nsItem:nth-child(2){
+        padding: 50px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerleft{
+        padding: 20px;
+        width: 90%;
+    }
+
+    .copy{
+        font-size: 16px;
+    }
+
+    .payment{
+        width: 90%;
+        padding: 20px;
+    }
+
+}
+@media (max-width:377px) {
+    .buybutton{
+        top: 8rem;
+        font-size: 16px;
+    }
+
+    .product{
+        height: 100vh;
+
+    }
+    
+    .productdetails {
+    bottom: 3rem;
+    }
+
+    .footerleft{
+        width: 100%;
+    }
+    
+    .payment{
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+
+
+    
+       
